@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Configuracion">
+    <xs:complexType>
+      <xs:attribute name="FormatoFecha" use="required" type="xs:string"/>
+      <xs:attribute name="IdiomaPorOmision" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
